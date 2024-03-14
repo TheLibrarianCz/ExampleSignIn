@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_label">Smyčka</string>
+    <string name="app_name">Example</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="picture">Picture</string>
+    <string name="retry">Retry</string>
+    <string name="description">Description</string>
+    <string name="success">Success</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="error_general">Something went wrong.</string>
+    <string name="error_ups_error">Ups. Something bad happened along the way.</string>
+    <string name="error_unauthorized">Wrong user name or password.</string>
+    <string name="error_no_internet">No internet connection.</string>
+    <string name="error_lower_caps_only">Use only lower capped letters.</string>
+    <string name="error_empty_input">Field can\'t be empty.</string>
+    <string name="error_internet_connection">There is no internet connection.</string>
+    <string name="picture_description_1">A beautiful human eye can captivate with its depth and clarity. Its iris, the colored part, might shimmer with intricate hues, ranging from deep browns and blues to captivating greens and hazels. The way light dances within the iris can create an enchanting effect, almost like tiny galaxies swirling within.</string>
+    <string name="picture_description_2">The pupil, the dark center of the eye, adds to its allure, dilating and contracting in response to light, reflecting the surrounding environment. Its size can vary, lending an element of dynamism to the gaze.</string>
+    <string name="picture_description_3">The sclera, or the white part of the eye, frames the iris and pupil, providing a contrast that emphasizes their beauty. Its pristine white surface enhances the colors and shapes within the eye, drawing attention to its exquisite details.</string>
+    <string name="picture_description_4">Eyelashes and eyebrows, framing the eye, add another layer of elegance. Long, dark lashes can enhance the eye\'s allure, while well-shaped brows complement its symmetry and expression.</string>
+    <string name="picture_description_5">Overall, a beautiful human eye is not just about its physical features but also about the emotions and stories it conveys. The sparkle of joy, the depth of sadness, or the intensity of passion can all be reflected in its depths, making it truly captivating to behold.</string>
+</resources>
