@@ -7,7 +7,7 @@ import javax.inject.Singleton
 @Singleton
 class PictureRepository @Inject constructor(
     private val base64Validator: Base64Validator,
-    @Named("network") private val pictureDataSource: PictureDataSource
+    @Named("fake") private val pictureDataSource: PictureDataSource
 ) {
     private val pictureMap: MutableMap<String, String> = mutableMapOf()
 

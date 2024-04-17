@@ -1,5 +1,6 @@
 package cz.smycka.example.data.di
 
+import cz.smycka.example.data.FakePictureDataSource
 import cz.smycka.example.data.NetworkPictureDataSource
 import cz.smycka.example.data.PictureDataSource
 import dagger.Module
@@ -16,5 +17,10 @@ object DataModule {
     @Provides
     @Singleton
     @Named("network")
-    fun provideDataSource(networkPictureDataSource: NetworkPictureDataSource): PictureDataSource = networkPictureDataSource
+    fun provideDataSource(source: NetworkPictureDataSource): PictureDataSource = source
+
+    @Provides
+    @Singleton
+    @Named("fake")
+    fun provideFakeDataSource(source: FakePictureDataSource): PictureDataSource = source
 }
